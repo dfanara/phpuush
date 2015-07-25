@@ -98,14 +98,14 @@ else
 
 	$sData = "<html>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400' rel='stylesheet' type='text/css'>
-	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />
 	<style>
 	html, body {margin: 0; padding: 0; height: auto; width: 100%; background: #F9F9F9; position: relative; font-family: 'Open Sans', sans-serif; text-align: center;}
-	.img { margin-top: 30px; }
+	.img { margin-top: 30px; margin-bottom: 70px;}
 	footer {position: absolute; bottom: 10px; height: 50px; text-align: center; width: 100%;}
 	footer .lol {margin: auto; width: 100%; max-width: 960px; height: 100%; text-align: left;}
 	@media screen and (max-width: 568px) {
-			.img {max-width: 100%;}
+			.img {max-width: 100%; margin-top: 0;}
 			footer .lol {width: auto; text-align: center;}
 	}
 	</style><body>".$image."
